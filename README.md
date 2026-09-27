@@ -1,21 +1,9 @@
-# Create mamba env
-micromamba create -n ai-agent python=3.11
-micromamba activate ai-agent
+# AI & ML Learning Repository
 
-# install library
-pip install -r requirements.txt
+This repository contains hands-on examples and learning material covering:
 
-# Directory structure
-ai-agent/
-├── app.py
-├── requirements.txt
-├── .env
-├── tools/
-│   ├── calculator.py
-│   └── weather.py
-└── tests/
-
-
-# Description
-LCEL is primarily for composing chains/runnables; an agent is a control loop around an LLM and tools.
-
+- **ML/** — Machine Learning fundamentals
+  - Classification (Random Forest, metrics, visualisations)
+  - Regression *(coming soon)*
+- **AI/** — Agentic AI
+  - LangChain agents, LLM tool use, multi-step reasoning
